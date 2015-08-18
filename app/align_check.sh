@@ -4,7 +4,6 @@
 #$ -l qname=abaqus.q
 #$ -cwd
 #$ -V
-#$ -l mf=192G
 #$ -j y
 #$ -o /home/hpc2862/logs/$JOB_NAME.txt
 
