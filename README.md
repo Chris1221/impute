@@ -10,6 +10,6 @@ Things to do
  - GTOOL (add to `bin/`)
 - [ ] Use strand flip file to flip 1000G file
 - [ ] Merge with NEAM
- -  [ ]Get `.diff` file
+ -  [ ] Get `.diff` file
 - [ ] Flip NEAM
 - [ ] Run `shapeit` on NEAM
