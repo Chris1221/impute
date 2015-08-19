@@ -26,5 +26,5 @@ neam_no_exm <- neam[!(neam$V2 %in% exclude_exm),]
 dup3 <- neam_no_exm[base::duplicated(neam_no_exm$V4),]
 
 #print out and write exclude list to be used with plink
-snp_list <- dup3$V2
-write.table("exclude_snp_list.txt", colnames = F, rownames= F, quote = F, sep = " ")
+snp_list <- c(exclude_exm, dup3$V2)
+write.table(snp_list, "exclude_snp_list.txt", col.names = F, row.names= F, quote = F, sep = " ")
