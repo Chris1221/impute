@@ -1,0 +1,15 @@
+######                                            ######
+#                                                      #
+#      Define all relevant parameters here             #
+#    This is read by the rest of the scripts           #
+#  so instead of editing the variables individually    #
+#                 put them here                        #
+#                                                      #
+######                                            ######
+
+# Remember to be consistant with directories. Always leave end blank
+
+REPO="/home/hpc2862/Scripts/phase-impute-pipe/"
+DATA_DIR="/scratch/hpc2862/CAMH/jen/NEAM"
+REF_DIR="/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono"
+range="assets/chromosome_boundaries.txt"

@@ -1,9 +1,0 @@
-#!/bin/bash
-
-#split chromosomes of NEAM
-bash app/m_split_by_chr.sh
-
-echo Script will sleep while chromsomes are splitting
-
-#wait for this to finish... 
-sleep 600
