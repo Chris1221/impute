@@ -10,7 +10,8 @@
 
 #!/bin/bash
 
-bash CONFIG
+DATA_DIR="/scratch/hpc2862/CAMH/jen/NEAM"
+REF_DIR="/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono"
 
 CHR=$1
 START=$2
