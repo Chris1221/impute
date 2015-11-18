@@ -1,5 +1,7 @@
 # impute
-Phasing and imputation of multiple data sets
+### Phasing and imputation of multiple data sets
+
+For detailed information, please see the [wiki](https://github.com/Chris1221/impute/wiki) and select the particular data set you are interested in. 
 
 ----------------------
 
