@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ######                                            ######
 #                                                      #
 #      Define all relevant parameters here             #
@@ -9,7 +11,12 @@
 
 # Remember to be consistant with directories. Always leave end blank
 
-REPO="/home/hpc2862/Scripts/phase-impute-pipe/"
-DATA_DIR="/scratch/hpc2862/CAMH/jen/NEAM"
-REF_DIR="/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono"
-range="assets/chromosome_boundaries.txt"
+export R="/home/hpc2862/repos/impute/"
+export DD="/scratch/hpc2862/CAMH/jen/NEAM/"
+export RD="/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/"
+export range="assets/chromosome_boundaries.txt"
+export plink="/home/hpc2862/Programs/binary_executables/plink"
+export DATA="NEAM_QC_complete_150623"
+export shapeit="bin/shapeit"
+
+
