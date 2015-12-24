@@ -55,12 +55,6 @@ do
 
 	qsub -N ${DATA}_chr{CHR}_prephase -V ${R}app/new_prephase.sh
 
-	#qsub this, too slow
-	#$shapeit -B ${DATA}_chr${CHR}.flipped -M ${RD}genetic_map_chr${CHR}_combined_b37.txt --exclude-snp exclude.chr${CHR}.txt -O ${DATA}_chr${CHR}.flipped.phased
-
-	#imputation
-
-
 done
 
 

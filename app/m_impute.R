@@ -1,6 +1,8 @@
 #!/usr/bin/Rscript
 #read in vars
-source("CONFIG")
+
+args <- commandArgs(TRUE)
+range <- args[1]
 
 bound <- read.table(range, h = F)
 
