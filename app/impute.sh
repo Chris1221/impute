@@ -6,7 +6,7 @@
 #$ -V
 #$ -l mf=192G
 #$ -j y
-#$ -o /home/hpc2862/logs/$JOB_NAME.txt
+#$ -o /home/hpc2862/repos/impute/logs/$JOB_NAME.txt
 
 #!/bin/bash
 
