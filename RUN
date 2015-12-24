@@ -26,7 +26,7 @@ do
 	$plink --bfile $DATA --chr $CHR --make-bed --out $DATA_chr${CHR}
 
 	#align check 1
-	${R}${shapeit} -check -B ${DD}${DATA}_chr${CHR} -M ${RD}genetic_map_chr${CHR}_combined_b37.txt --input-ref ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz ${RD}ALL.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.sample --output-log neam_alignment_chr${CHR}
+	${shapeit} -check -B ${DD}${DATA}_chr${CHR} -M ${RD}genetic_map_chr${CHR}_combined_b37.txt --input-ref ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz ${RD}ALL.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.sample --output-log neam_alignment_chr${CHR}
 
 	#cleanup
 	#rm -f neam_alignment_chr*.log
