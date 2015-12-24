@@ -12,7 +12,7 @@
 # Remember to be consistant with directories. Always leave end blank
 
 export R="/home/hpc2862/repos/impute/"
-export DD="/scratch/hpc2862/CAMH/jen/PNAT_2_AA/"
+export DD="/scratch/hpc2862/CAMH/jen/PNAT2_AA/"
 export RD="/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/"
 export range="assets/chromosome_boundaries.txt"
 export plink="/home/hpc2862/Programs/binary_executables/plink"
