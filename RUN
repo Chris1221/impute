@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# first, remove duplicate snps
+Rscript remove_dup.R
+
+#then subset
