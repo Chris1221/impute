@@ -53,7 +53,7 @@ do
 
 	#prephasing
 
-	qsub -N ${DATA}_chr{CHR}_prephase -V ${R}app/new_prephase.sh
+	qsub -N ${DATA}_chr{CHR}_prephase -V ${R}app/new_prephase.sh $CHR
 
 done
 
