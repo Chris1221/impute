@@ -1,6 +1,9 @@
 #!/usr/bin/Rscript
 #read in vars
-source("CONFIG")
+
+args <- commandArgs(TRUE)
+range <- args[1]
+DATA <- args[2]
 
 bound <- read.table(range, h = F)
 
@@ -33,7 +36,7 @@ for(i in 1:22){
       option <- "-allow_large_regions"
     }
 
-    command <- paste0("qsub -N NEAM_", chr, "_impute_", l_range, "_", u_range, " app/impute.sh ", chr, " ", l_range, " ", u_range, " ", option)
+    command <- paste0("qsub -N ", DATA, "_", chr, "_impute_", l_range, "_", u_range, " app/impute.sh ", chr, " ", l_range, " ", u_range, " ", option)
     system(command)
 
   }
