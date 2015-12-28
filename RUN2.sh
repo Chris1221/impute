@@ -13,4 +13,4 @@ source CONFIG
 
 cd /home/hpc2862/repos/impute
 
-Rscript app/m_impute.R $range
+Rscript app/m_impute.R $range $DATA
