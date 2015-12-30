@@ -1,0 +1,260 @@
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `BASH_FUNC_module'
+sending incremental file list
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.05e+08.1.1e+08
+       32768   0%    0.00kB/s    0:00:00    41779200   9%   39.81MB/s    0:00:09   104366080  24%   49.55MB/s    0:00:06   136871936  32%   43.14MB/s    0:00:06   172523520  41%   40.71MB/s    0:00:05   197263360  47%   36.69MB/s    0:00:05   229638144  54%   29.64MB/s    0:00:06   276332544  65%   32.86MB/s    0:00:04   339836928  81%   39.59MB/s    0:00:01   409501696  97%   50.22MB/s    0:00:00   418827392 100%   43.33MB/s    0:00:09 (xfer#1, to-check=3261/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.05e+08.1.1e+08_diplotype_ordering
+       11149 100%   67.63kB/s    0:00:00       11149 100%   67.63kB/s    0:00:00 (xfer#2, to-check=3260/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.05e+08.1.1e+08_info
+       32768   0%    0.00kB/s    0:00:00     4384676 100%    9.79MB/s    0:00:00 (xfer#3, to-check=3259/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.05e+08.1.1e+08_info_by_sample
+       11243 100%   24.78kB/s    0:00:00       11243 100%   24.78kB/s    0:00:00 (xfer#4, to-check=3258/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.05e+08.1.1e+08_summary
+        7813 100%   16.41kB/s    0:00:00        7813 100%   16.41kB/s    0:00:00 (xfer#5, to-check=3257/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.05e+08.1.1e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#6, to-check=3256/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.15e+08.1.2e+08
+       32768   0%   60.04kB/s    1:48:48    29917184   7%   28.53MB/s    0:00:12    70811648  18%   31.31MB/s    0:00:10   123240448  31%   37.12MB/s    0:00:07   171474944  43%   39.18MB/s    0:00:05   239468544  61%   47.89MB/s    0:00:03   295206912  75%   53.18MB/s    0:00:01   363364352  92%   56.88MB/s    0:00:00   392007928 100%   47.35MB/s    0:00:07 (xfer#7, to-check=3255/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.15e+08.1.2e+08_diplotype_ordering
+       11149 100%   15.25kB/s    0:00:00       11149 100%   15.25kB/s    0:00:00 (xfer#8, to-check=3254/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.15e+08.1.2e+08_info
+       32768   0%    0.00kB/s    0:00:00     3945075 100%   43.38MB/s    0:00:00 (xfer#9, to-check=3253/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.15e+08.1.2e+08_info_by_sample
+       11243 100%  115.57kB/s    0:00:00       11243 100%  115.57kB/s    0:00:00 (xfer#10, to-check=3252/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.15e+08.1.2e+08_summary
+        7813 100%   56.10kB/s    0:00:00        7813 100%   56.10kB/s    0:00:00 (xfer#11, to-check=3251/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.15e+08.1.2e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#12, to-check=3250/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+07
+       32768   0%  148.15kB/s    1:34:55    27787264   3%   26.50MB/s    0:00:30    89686016  10%   41.24MB/s    0:00:17   147357696  17%   45.11MB/s    0:00:15   213417984  25%   49.21MB/s    0:00:12   223903744  26%   41.49MB/s    0:00:14   258834432  30%   36.40MB/s    0:00:15   319324160  37%   31.91MB/s    0:00:16   372801536  44%   26.05MB/s    0:00:17   440991744  52%   37.90MB/s    0:00:10   456687616  54%   33.95MB/s    0:00:11   510590976  60%   37.95MB/s    0:00:08   516456448  61%   31.26MB/s    0:00:10   565739520  67%   25.93MB/s    0:00:10   604405760  71%   31.35MB/s    0:00:07   664305664  78%   32.58MB/s    0:00:05   731938816  86%   48.85MB/s    0:00:02   764968960  90%   46.55MB/s    0:00:01   821166080  97%   50.64MB/s    0:00:00   843839113 100%   38.46MB/s    0:00:20 (xfer#13, to-check=3249/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+07_diplotype_ordering
+       11149 100%   36.05kB/s    0:00:00       11149 100%   36.05kB/s    0:00:00 (xfer#14, to-check=3248/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+07_info
+       32768   0%    0.00kB/s    0:00:00     7949085 100%   60.40MB/s    0:00:00 (xfer#15, to-check=3247/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+07_info_by_sample
+       11243 100%   77.32kB/s    0:00:00       11243 100%   77.32kB/s    0:00:00 (xfer#16, to-check=3246/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+07_summary
+        7819 100%   39.56kB/s    0:00:00        7819 100%   39.56kB/s    0:00:00 (xfer#17, to-check=3245/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+07_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#18, to-check=3244/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+08.1.15e+08
+       32768   0%  106.67kB/s    1:01:02    47742976  12%   43.86MB/s    0:00:07   109543424  28%   51.29MB/s    0:00:05   178814976  45%   56.15MB/s    0:00:03   241729536  61%   57.05MB/s    0:00:02   305692672  78%   61.13MB/s    0:00:01   365199360  93%   60.59MB/s    0:00:00   390690150 100%   58.29MB/s    0:00:06 (xfer#19, to-check=3243/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+08.1.15e+08_diplotype_ordering
+       11149 100%   31.74kB/s    0:00:00       11149 100%   31.74kB/s    0:00:00 (xfer#20, to-check=3242/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+08.1.15e+08_info
+       32768   0%    0.00kB/s    0:00:00     3927957 100%   53.07MB/s    0:00:00 (xfer#21, to-check=3241/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+08.1.15e+08_info_by_sample
+       11243 100%  130.71kB/s    0:00:00       11243 100%  130.71kB/s    0:00:00 (xfer#22, to-check=3240/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+08.1.15e+08_summary
+        7821 100%   70.72kB/s    0:00:00        7821 100%   70.72kB/s    0:00:00 (xfer#23, to-check=3239/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.1e+08.1.15e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#24, to-check=3238/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.25e+08.1.3e+08_summary
+        4149 100%   31.17kB/s    0:00:00        4149 100%   31.17kB/s    0:00:00 (xfer#25, to-check=3237/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.25e+08.1.3e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#26, to-check=3236/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.2e+08.1.25e+08
+       32768   0%  169.31kB/s    0:07:27    48791552  64%   46.12MB/s    0:00:00    75842294 100%   48.03MB/s    0:00:01 (xfer#27, to-check=3235/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.2e+08.1.25e+08_diplotype_ordering
+       11149 100%   19.72kB/s    0:00:00       11149 100%   19.72kB/s    0:00:00 (xfer#28, to-check=3234/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.2e+08.1.25e+08_info
+       32768   4%    0.00kB/s    0:00:00      702829 100%   71.00MB/s    0:00:00 (xfer#29, to-check=3233/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.2e+08.1.25e+08_info_by_sample
+       11243 100%  171.55kB/s    0:00:00       11243 100%  171.55kB/s    0:00:00 (xfer#30, to-check=3232/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.2e+08.1.25e+08_summary
+        7810 100%   89.73kB/s    0:00:00        7810 100%   89.73kB/s    0:00:00 (xfer#31, to-check=3231/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.2e+08.1.25e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#32, to-check=3230/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.35e+08.1.4e+08_summary
+        4146 100%   39.31kB/s    0:00:00        4146 100%   39.31kB/s    0:00:00 (xfer#33, to-check=3229/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.35e+08.1.4e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#34, to-check=3228/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.3e+08.1.35e+08_summary
+        4149 100%   32.68kB/s    0:00:00        4149 100%   32.68kB/s    0:00:00 (xfer#35, to-check=3227/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.3e+08.1.35e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#36, to-check=3226/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.45e+08.1.5e+08
+       32768   0%  148.15kB/s    0:17:10    46366720  30%   44.22MB/s    0:00:02    87588864  57%   40.89MB/s    0:00:01   148406272  97%   46.07MB/s    0:00:00   152635275 100%   46.90MB/s    0:00:03 (xfer#37, to-check=3225/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.45e+08.1.5e+08_diplotype_ordering
+       11149 100%  259.23kB/s    0:00:00       11149 100%  259.23kB/s    0:00:00 (xfer#38, to-check=3224/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.45e+08.1.5e+08_info
+       32768   2%    0.00kB/s    0:00:00     1598995 100%   62.24MB/s    0:00:00 (xfer#39, to-check=3223/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.45e+08.1.5e+08_info_by_sample
+       11243 100%  133.90kB/s    0:00:00       11243 100%  133.90kB/s    0:00:00 (xfer#40, to-check=3222/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.45e+08.1.5e+08_summary
+        7808 100%   78.61kB/s    0:00:00        7808 100%   78.61kB/s    0:00:00 (xfer#41, to-check=3221/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.45e+08.1.5e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#42, to-check=3220/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.4e+08.1.45e+08
+       32768   0%  203.82kB/s    0:03:08    38366514 100%   56.64MB/s    0:00:00 (xfer#43, to-check=3219/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.4e+08.1.45e+08_diplotype_ordering
+       11149 100%   16.52kB/s    0:00:00       11149 100%   16.52kB/s    0:00:00 (xfer#44, to-check=3218/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.4e+08.1.45e+08_info
+       32768  18%   24.21kB/s    0:00:05       65536  37%   48.23kB/s    0:00:02      176638 100%  129.89kB/s    0:00:01 (xfer#45, to-check=3217/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.4e+08.1.45e+08_info_by_sample
+       12178 100%  699.56kB/s    0:00:00       12178 100%  699.56kB/s    0:00:00 (xfer#46, to-check=3216/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.4e+08.1.45e+08_summary
+        7782 100%  253.32kB/s    0:00:00        7782 100%  253.32kB/s    0:00:00 (xfer#47, to-check=3215/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.4e+08.1.45e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#48, to-check=3214/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.55e+08.1.6e+08
+       32768   0%  367.82kB/s    0:26:55    53215232   8%   50.75MB/s    0:00:10    86540288  14%   40.74MB/s    0:00:12   141361152  23%   44.55MB/s    0:00:09   173572096  29%   40.50MB/s    0:00:10   223903744  37%   39.70MB/s    0:00:09   267943936  45%   38.28MB/s    0:00:08   335052800  56%   40.71MB/s    0:00:06   393773056  66%   46.90MB/s    0:00:04   435716096  73%   44.83MB/s    0:00:03   509116416  85%   56.66MB/s    0:00:01   572030976  96%   55.69MB/s    0:00:00   594239221 100%   47.75MB/s    0:00:11 (xfer#49, to-check=3213/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.55e+08.1.6e+08_diplotype_ordering
+       11149 100%   40.78kB/s    0:00:00       11149 100%   40.78kB/s    0:00:00 (xfer#50, to-check=3212/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.55e+08.1.6e+08_info
+       32768   0%    0.00kB/s    0:00:00     4011863 100%   13.04MB/s    0:00:00 (xfer#51, to-check=3211/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.55e+08.1.6e+08_info_by_sample
+       11243 100%   36.00kB/s    0:00:00       11243 100%   36.00kB/s    0:00:00 (xfer#52, to-check=3210/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.55e+08.1.6e+08_summary
+        7818 100%   21.27kB/s    0:00:00        7818 100%   21.27kB/s    0:00:00 (xfer#53, to-check=3209/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.55e+08.1.6e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#54, to-check=3208/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+07.2e+07
+       32768   0%   79.80kB/s    1:30:28    30965760   7%   23.11MB/s    0:00:17    94273536  21%   39.48MB/s    0:00:08   128516096  29%   37.40MB/s    0:00:07   147357696  34%   31.59MB/s    0:00:08   173572096  40%   32.59MB/s    0:00:07   196640768  45%   22.22MB/s    0:00:10   278069248  64%   32.47MB/s    0:00:04   296255488  68%   32.08MB/s    0:00:04   327712768  75%   33.24MB/s    0:00:03   356024320  82%   32.97MB/s    0:00:02   396918784  91%   24.59MB/s    0:00:01   433264652 100%   31.69MB/s    0:00:13 (xfer#55, to-check=3207/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+07.2e+07_diplotype_ordering
+       11149 100%   13.43kB/s    0:00:00       11149 100%   13.43kB/s    0:00:00 (xfer#56, to-check=3206/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+07.2e+07_info
+       32768   0%    0.00kB/s    0:00:00     4206879 100%   48.55MB/s    0:00:00 (xfer#57, to-check=3205/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+07.2e+07_info_by_sample
+       11243 100%  103.58kB/s    0:00:00       11243 100%  103.58kB/s    0:00:00 (xfer#58, to-check=3204/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+07.2e+07_summary
+        7794 100%   52.86kB/s    0:00:00        7794 100%   52.86kB/s    0:00:00 (xfer#59, to-check=3203/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+07.2e+07_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#60, to-check=3202/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+08.1.55e+08
+       32768   0%   91.43kB/s    1:32:28     5799936   1%    4.10MB/s    0:01:59    41451520   8%   16.37MB/s    0:00:27    90472448  17%   25.27MB/s    0:00:16   157843456  31%   34.02MB/s    0:00:10   195592192  38%   44.34MB/s    0:00:06   232292352  45%   45.30MB/s    0:00:05   275283968  54%   42.92MB/s    0:00:05   311984128  61%   35.90MB/s    0:00:05   372801536  73%   41.28MB/s    0:00:03   435912704  85%   47.46MB/s    0:00:01   493387776  97%   51.70MB/s    0:00:00   507310965 100%   41.01MB/s    0:00:11 (xfer#61, to-check=3201/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+08.1.55e+08_diplotype_ordering
+       11149 100%   40.18kB/s    0:00:00       11149 100%   40.18kB/s    0:00:00 (xfer#62, to-check=3200/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+08.1.55e+08_info
+       32768   0%    0.00kB/s    0:00:00     3775331 100%   10.11MB/s    0:00:00 (xfer#63, to-check=3199/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+08.1.55e+08_info_by_sample
+       11243 100%   29.75kB/s    0:00:00       11243 100%   29.75kB/s    0:00:00 (xfer#64, to-check=3198/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+08.1.55e+08_summary
+        7807 100%   10.50kB/s    0:00:00        7807 100%   10.50kB/s    0:00:00 (xfer#65, to-check=3197/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.5e+08.1.55e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#66, to-check=3196/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.65e+08.1.7e+08
+       32768   0%   37.38kB/s    5:34:39     9109504   1%    8.69MB/s    0:01:23    66617344   8%   31.64MB/s    0:00:21    98107392  13%   31.11MB/s    0:00:20   137920512  18%   31.91MB/s    0:00:18   184057856  24%   40.37MB/s    0:00:13   242778112  32%   40.72MB/s    0:00:12   305692672  40%   47.86MB/s    0:00:09   346587136  46%   48.80MB/s    0:00:08   373850112  49%   35.39MB/s    0:00:10   425230336  56%   34.01MB/s    0:00:09   470319104  62%   29.84MB/s    0:00:09   510164992  67%   29.03MB/s    0:00:08   531136512  70%   32.97MB/s    0:00:06   565739520  75%   29.24MB/s    0:00:06   609779712  81%   29.48MB/s    0:00:04   671645696  89%   35.32MB/s    0:00:02   735608832  97%   46.91MB/s    0:00:00   750680377 100%   37.40MB/s    0:00:19 (xfer#67, to-check=3195/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.65e+08.1.7e+08_diplotype_ordering
+       11149 100%   53.37kB/s    0:00:00       11149 100%   53.37kB/s    0:00:00 (xfer#68, to-check=3194/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.65e+08.1.7e+08_info
+       32768   0%    0.00kB/s    0:00:00     4327629 100%    8.32MB/s    0:00:00 (xfer#69, to-check=3193/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.65e+08.1.7e+08_info_by_sample
+       11243 100%   21.53kB/s    0:00:00       11243 100%   21.53kB/s    0:00:00 (xfer#70, to-check=3192/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.65e+08.1.7e+08_summary
+        7815 100%   14.24kB/s    0:00:00        7815 100%   14.24kB/s    0:00:00 (xfer#71, to-check=3191/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.65e+08.1.7e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#72, to-check=3190/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.6e+08.1.65e+08
+       32768   0%   51.61kB/s    3:27:48    21528576   3%   11.58MB/s    0:00:52    51937280   8%   17.71MB/s    0:00:32    88637440  13%   22.02MB/s    0:00:24   138510336  21%   27.31MB/s    0:00:18   177766400  27%   36.22MB/s    0:00:12   233340928  36%   42.21MB/s    0:00:09   267943936  41%   37.89MB/s    0:00:09   300449792  46%   31.65MB/s    0:00:10   364871680  56%   36.96MB/s    0:00:07   410550272  63%   34.74MB/s    0:00:06   474513408  73%   44.66MB/s    0:00:03   538476544  83%   55.57MB/s    0:00:01   603488256  93%   55.48MB/s    0:00:00   641236992  99%   54.00MB/s    0:00:00   643578969 100%   38.69MB/s    0:00:15 (xfer#73, to-check=3189/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.6e+08.1.65e+08_diplotype_ordering
+       11149 100%  241.95kB/s    0:00:00       11149 100%  241.95kB/s    0:00:00 (xfer#74, to-check=3188/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.6e+08.1.65e+08_info
+       32768   0%    0.00kB/s    0:00:00     4212437 100%   17.03MB/s    0:00:00 (xfer#75, to-check=3187/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.6e+08.1.65e+08_info_by_sample
+       11243 100%   44.09kB/s    0:00:00       11243 100%   44.09kB/s    0:00:00 (xfer#76, to-check=3186/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.6e+08.1.65e+08_summary
+        7818 100%   25.28kB/s    0:00:00        7818 100%   25.28kB/s    0:00:00 (xfer#77, to-check=3185/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.6e+08.1.65e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#78, to-check=3184/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.75e+08.1.8e+08
+       32768   0%   87.67kB/s    1:42:49    45645824   8%   42.97MB/s    0:00:11    84705280  15%   40.13MB/s    0:00:11   122191872  22%   35.87MB/s    0:00:11   144211968  26%   31.67MB/s    0:00:12   200245248  37%   34.06MB/s    0:00:09   256245760  47%   37.79MB/s    0:00:07   302546944  55%   40.80MB/s    0:00:05   327712768  60%   42.42MB/s    0:00:04   393838592  72%   44.76MB/s    0:00:03   430473216  79%   40.18MB/s    0:00:02   468221952  86%   39.40MB/s    0:00:01   526909440  97%   47.42MB/s    0:00:00   540900127 100%   40.67MB/s    0:00:12 (xfer#79, to-check=3183/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.75e+08.1.8e+08_diplotype_ordering
+       11149 100%   40.93kB/s    0:00:00       11149 100%   40.93kB/s    0:00:00 (xfer#80, to-check=3182/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.75e+08.1.8e+08_info
+       32768   0%    0.00kB/s    0:00:00     3978883 100%   19.40MB/s    0:00:00 (xfer#81, to-check=3181/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.75e+08.1.8e+08_info_by_sample
+       11243 100%   53.30kB/s    0:00:00       11243 100%   53.30kB/s    0:00:00 (xfer#82, to-check=3180/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.75e+08.1.8e+08_summary
+        7807 100%   30.02kB/s    0:00:00        7807 100%   30.02kB/s    0:00:00 (xfer#83, to-check=3179/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.75e+08.1.8e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#84, to-check=3178/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.7e+08.1.75e+08
+       32768   0%   90.40kB/s    1:36:17    41451520   7%   38.95MB/s    0:00:12   104366080  19%   49.35MB/s    0:00:08   146309120  28%   44.49MB/s    0:00:08   179863552  34%   40.91MB/s    0:00:08   232030208  44%   43.51MB/s    0:00:06   244875264  46%   32.06MB/s    0:00:08   282624000  54%   31.33MB/s    0:00:07   334004224  63%   35.93MB/s    0:00:05   393576448  75%   37.66MB/s    0:00:03   456687616  87%   49.43MB/s    0:00:01   483950592  92%   44.84MB/s    0:00:00   502824960  96%   36.21MB/s    0:00:00   522265686 100%   38.00MB/s    0:00:13 (xfer#85, to-check=3177/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.7e+08.1.75e+08_diplotype_ordering
+       11149 100%   27.49kB/s    0:00:00       11149 100%   27.49kB/s    0:00:00 (xfer#86, to-check=3176/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.7e+08.1.75e+08_info
+       32768   0%    0.00kB/s    0:00:00       65536   1%   21.64kB/s    0:02:50     3751185 100%    2.27MB/s    0:00:01 (xfer#87, to-check=3175/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.7e+08.1.75e+08_info_by_sample
+       11243 100%  101.66kB/s    0:00:00       11243 100%  101.66kB/s    0:00:00 (xfer#88, to-check=3174/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.7e+08.1.75e+08_summary
+        7809 100%   47.07kB/s    0:00:00        7809 100%   47.07kB/s    0:00:00 (xfer#89, to-check=3173/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.7e+08.1.75e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#90, to-check=3172/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.85e+08.1.9e+08
+       32768   0%  136.75kB/s    0:58:21    45383680   9%   43.28MB/s    0:00:09    55083008  11%   25.30MB/s    0:00:16   112754688  23%   34.95MB/s    0:00:10   125730816  26%   29.42MB/s    0:00:11   168329216  35%   28.35MB/s    0:00:10   220758016  46%   38.86MB/s    0:00:06   261652480  54%   34.13MB/s    0:00:06   311984128  65%   42.46MB/s    0:00:03   347635712  72%   41.09MB/s    0:00:03   391675904  81%   39.18MB/s    0:00:02   460750848  96%   46.73MB/s    0:00:00   478912797 100%   39.11MB/s    0:00:11 (xfer#91, to-check=3171/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.85e+08.1.9e+08_diplotype_ordering
+       11149 100%   25.14kB/s    0:00:00       11149 100%   25.14kB/s    0:00:00 (xfer#92, to-check=3170/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.85e+08.1.9e+08_info
+       32768   0%    0.00kB/s    0:00:00     4549555 100%    9.28MB/s    0:00:00 (xfer#93, to-check=3169/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.85e+08.1.9e+08_info_by_sample
+       11243 100%   22.55kB/s    0:00:00       11243 100%   22.55kB/s    0:00:00 (xfer#94, to-check=3168/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.85e+08.1.9e+08_summary
+        7807 100%   13.40kB/s    0:00:00        7807 100%   13.40kB/s    0:00:00 (xfer#95, to-check=3167/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.85e+08.1.9e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#96, to-check=3166/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.8e+08.1.85e+08
+       32768   0%   51.70kB/s    2:52:16    25722880   4%   24.14MB/s    0:00:20    87719936  16%   41.50MB/s    0:00:10   146309120  27%   45.88MB/s    0:00:08   171474944  32%   40.47MB/s    0:00:08   220037120  41%   46.06MB/s    0:00:06   249069568  46%   37.70MB/s    0:00:07   283672576  53%   27.32MB/s    0:00:08   331907072  62%   27.52MB/s    0:00:07   345538560  64%   21.42MB/s    0:00:08   382271488  71%   22.98MB/s    0:00:06   435716096  81%   30.17MB/s    0:00:03   499679232  93%   39.55MB/s    0:00:00   534392670 100%   36.10MB/s    0:00:14 (xfer#97, to-check=3165/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.8e+08.1.85e+08_diplotype_ordering
+       11149 100%   22.59kB/s    0:00:00       11149 100%   22.59kB/s    0:00:00 (xfer#98, to-check=3164/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.8e+08.1.85e+08_info
+       32768   0%    0.00kB/s    0:00:00     4018986 100%    9.01MB/s    0:00:00 (xfer#99, to-check=3163/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.8e+08.1.85e+08_info_by_sample
+       11243 100%   23.51kB/s    0:00:00       11243 100%   23.51kB/s    0:00:00 (xfer#100, to-check=3162/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.8e+08.1.85e+08_summary
+        7809 100%   11.84kB/s    0:00:00        7809 100%   11.84kB/s    0:00:00 (xfer#101, to-check=3161/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.8e+08.1.85e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#102, to-check=3160/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.95e+08.2e+08
+       32768   0%   44.08kB/s    3:09:57    16580608   3%   15.81MB/s    0:00:30    24805376   4%   11.83MB/s    0:00:39    40402944   8%   12.57MB/s    0:00:35    67665920  13%   14.97MB/s    0:00:28    94928896  18%   16.43MB/s    0:00:24   134774784  26%   20.54MB/s    0:00:17   203980800  40%   30.90MB/s    0:00:09   237535232  47%   33.46MB/s    0:00:07   301498368  60%   42.53MB/s    0:00:04   324567040  64%   43.25MB/s    0:00:04   358350848  71%   35.29MB/s    0:00:03   395640832  78%   36.46MB/s    0:00:02   434667520  86%   30.89MB/s    0:00:02   492339200  97%   39.87MB/s    0:00:00   502413102 100%   31.03MB/s    0:00:15 (xfer#103, to-check=3159/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.95e+08.2e+08_diplotype_ordering
+       11149 100%   70.24kB/s    0:00:00       11149 100%   70.24kB/s    0:00:00 (xfer#104, to-check=3158/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.95e+08.2e+08_info
+       32768   0%    0.00kB/s    0:00:00     4145552 100%   38.83MB/s    0:00:00 (xfer#105, to-check=3157/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.95e+08.2e+08_info_by_sample
+       11243 100%   89.26kB/s    0:00:00       11243 100%   89.26kB/s    0:00:00 (xfer#106, to-check=3156/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.95e+08.2e+08_summary
+        7794 100%   50.41kB/s    0:00:00        7794 100%   50.41kB/s    0:00:00 (xfer#107, to-check=3155/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.95e+08.2e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#108, to-check=3154/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.9e+08.1.95e+08
+       32768   0%  140.35kB/s    0:54:39    54067200  11%   51.56MB/s    0:00:07   117997568  25%   55.68MB/s    0:00:06   179863552  39%   56.22MB/s    0:00:04   251166720  54%   58.44MB/s    0:00:03   301498368  65%   54.25MB/s    0:00:02   339247104  73%   45.45MB/s    0:00:02   397967360  86%   44.82MB/s    0:00:01   460364469 100%   50.99MB/s    0:00:08 (xfer#109, to-check=3153/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.9e+08.1.95e+08_diplotype_ordering
+       11149 100%   11.11kB/s    0:00:00       11149 100%   11.11kB/s    0:00:00 (xfer#110, to-check=3152/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.9e+08.1.95e+08_info
+       32768   0%    0.00kB/s    0:00:00     4191167 100%   49.57MB/s    0:00:00 (xfer#111, to-check=3151/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.9e+08.1.95e+08_info_by_sample
+       11243 100%   93.05kB/s    0:00:00       11243 100%   93.05kB/s    0:00:00 (xfer#112, to-check=3150/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.9e+08.1.95e+08_summary
+        7807 100%   30.13kB/s    0:00:00        7807 100%   30.13kB/s    0:00:00 (xfer#113, to-check=3149/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1.9e+08.1.95e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#114, to-check=3148/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+07.1.5e+07
+       32768   0%   89.64kB/s    1:10:33    44597248  11%   42.28MB/s    0:00:07   111837184  29%   53.20MB/s    0:00:04   149454848  39%   46.85MB/s    0:00:04   218365952  57%   51.53MB/s    0:00:03   280559616  73%   55.80MB/s    0:00:01   346587136  91%   55.46MB/s    0:00:00   379466997 100%   55.44MB/s    0:00:06 (xfer#115, to-check=3147/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+07.1.5e+07_diplotype_ordering
+       11149 100%   21.86kB/s    0:00:00       11149 100%   21.86kB/s    0:00:00 (xfer#116, to-check=3146/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+07.1.5e+07_info
+       32768   0%    0.00kB/s    0:00:00     3698514 100%   34.61MB/s    0:00:00 (xfer#117, to-check=3145/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+07.1.5e+07_info_by_sample
+       11243 100%   95.47kB/s    0:00:00       11243 100%   95.47kB/s    0:00:00 (xfer#118, to-check=3144/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+07.1.5e+07_summary
+        7786 100%   51.03kB/s    0:00:00        7786 100%   51.03kB/s    0:00:00 (xfer#119, to-check=3143/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+07.1.5e+07_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#120, to-check=3142/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+08.1.05e+08
+       32768   0%  167.54kB/s    0:40:03    47480832  11%   45.28MB/s    0:00:07   106463232  26%   50.77MB/s    0:00:05   167280640  41%   41.77MB/s    0:00:05   181960704  45%   35.48MB/s    0:00:06   192446464  47%   21.18MB/s    0:00:09   265846784  66%   23.26MB/s    0:00:05   297009152  73%   21.66MB/s    0:00:04   353927168  87%   28.87MB/s    0:00:01   402694902 100%   34.15MB/s    0:00:11 (xfer#121, to-check=3141/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+08.1.05e+08_diplotype_ordering
+       11149 100%   15.80kB/s    0:00:00       11149 100%   15.80kB/s    0:00:00 (xfer#122, to-check=3140/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+08.1.05e+08_info
+       32768   0%    0.00kB/s    0:00:00     4042815 100%   21.01MB/s    0:00:00 (xfer#123, to-check=3139/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+08.1.05e+08_info_by_sample
+       11243 100%   44.81kB/s    0:00:00       11243 100%   44.81kB/s    0:00:00 (xfer#124, to-check=3138/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+08.1.05e+08_summary
+        7797 100%   25.38kB/s    0:00:00        7797 100%   25.38kB/s    0:00:00 (xfer#125, to-check=3137/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.1e+08.1.05e+08_warnings
+           0 100%    0.00kB/s    0:00:00 (xfer#126, to-check=3136/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.2.05e+08.2.1e+08
+       32768   0%   81.01kB/s    1:47:21    35160064   6%   24.04MB/s    0:00:19   100171776  19%   39.33MB/s    0:00:10   165183488  31%   45.58MB/s    0:00:07   216563712  41%   44.67MB/s    0:00:06   228851712  43%   43.69MB/s    0:00:06   241729536  46%   31.53MB/s    0:00:08   255361024  48%   19.68MB/s    0:00:13   276332544  52%   12.03MB/s    0:00:19   345178112  66%   23.41MB/s    0:00:07   384303104  73%   29.23MB/s    0:00:04   440958976  84%   36.03MB/s    0:00:02   502824960  96%   48.87MB/s    0:00:00   521889642 100%   35.47MB/s    0:00:14 (xfer#127, to-check=3135/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.2.05e+08.2.1e+08_diplotype_ordering
+       11149 100%   40.78kB/s    0:00:00       11149 100%   40.78kB/s    0:00:00 (xfer#128, to-check=3134/3262)
+PNAT2_EUR_QC_complete_150731_chr1.flipped.phased.imputed.2.05e+08.2.1e+08_info
