@@ -1,13 +1,14 @@
 #!/bin/bash
-
-################# !!! #####################
-#                                         #
-#         THESE ARE LOCALLY RUN           #
-#         bash run; cnt+z; disown         #
-#                                         #
-################  !!! #####################
+#$ -S /bin/bash
+#$ -q abaqus.q
+#$ -l qname=abaqus.q
+#$ -cwd
+#$ -V
+#$ -j y
+#$ -o /home/hpc2862/repos/impute/logs/$JOB_NAME.txt
 
 #source the config parms
+cd /home/hpc2862/repos/impute
 
 source CONFIG 
 
@@ -23,6 +24,5 @@ rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
 
 cd out
 
-rsync -a --stat --progress2 * ../process/
 ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
