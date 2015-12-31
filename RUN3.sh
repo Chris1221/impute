@@ -23,6 +23,7 @@ cd $DD
 
 
 cd ${DD}out/
+pwd
 
 # ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
