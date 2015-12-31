@@ -8,11 +8,11 @@
 #$ -o /home/hpc2862/repos/impute/logs/$JOB_NAME.txt
 
 #source the config parms
-# cd /home/hpc2862/repos/impute
+cd /home/hpc2862/repos/impute
 
-# source CONFIG 
+source CONFIG 
 
-# cd $DD
+cd $DD
 
 # mkdir out
 # mkdir process
@@ -22,7 +22,7 @@
 # rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
 
 
-# cd out
+cd ${DD}out/
 
 # ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
