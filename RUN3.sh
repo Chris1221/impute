@@ -8,21 +8,28 @@
 #$ -o /home/hpc2862/repos/impute/logs/$JOB_NAME.txt
 
 #source the config parms
-cd /home/hpc2862/repos/impute
+# cd /home/hpc2862/repos/impute
 
-source CONFIG 
+# source CONFIG 
 
-cd $DD
+# cd $DD
 
-mkdir out
-mkdir process
+# mkdir out
+# mkdir process
 
-rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* out/
+# rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* out/
 
-rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
+# rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
 
 
-cd out
+# cd out
 
-ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
+# ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
+for CHR in `seq 1 22`;
+do
+cat ${DATA}_chr${CHR}.flipped.phased.imputed.* > ${DATA}_chr${CHR}.imputed.gen
+done
+
+
+	
