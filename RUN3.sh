@@ -31,7 +31,7 @@ cd ${DD}out/
 for CHR in `seq 1 22`;
 do
 #cat ${DATA}_chr${CHR}.flipped.phased.imputed.* > ../plink/${DATA}_chr${CHR}.imputed.gen
-#$gtool -G --g ${DATA}_chr${CHR}.imputed.gen --s ../${DATA}_chr${CHR}.flipped.phased.sample --ped ../plink/${DATA}_chr${CHR}.imputed.ped --map ../plink/${DATA}_chr${CHR}.imputed.map --chr ${CHR} --sex sex --threshold 0.9
+# $gtool -G --g ${DATA}_chr${CHR}.imputed.gen --s ../${DATA}_chr${CHR}.flipped.phased.sample --ped ../plink/${DATA}_chr${CHR}.imputed.ped --map ../plink/${DATA}_chr${CHR}.imputed.map --chr ${CHR} --sex sex --threshold 0.9
 $rename ../plink/${DATA}_chr${CHR}.imputed.map ${CHR} > ../plink/${DATA}_chr${CHR}.renamed.imputed.map
 done
 
