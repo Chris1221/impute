@@ -23,8 +23,8 @@ cd $DD
 
 
 cd ${DD}out/
-mkdir ../plink
-cp ../*.sample ../plink/
+#mkdir ../plink
+#cp ../*.sample ../plink/
 
 # ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
