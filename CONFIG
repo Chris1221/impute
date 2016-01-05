@@ -18,5 +18,7 @@ export range="assets/chromosome_boundaries.txt"
 export plink="/home/hpc2862/Programs/binary_executables/plink"
 export DATA="PNAT2_EUR_QC_complete_150731"
 export shapeit="/home/hpc2862/repos/impute/bin/shapeit"
+export gtool="/home/hpc2862/repos/impute/bin/gtool"
+export rename="/home/hpc2862/repos/impute/app/snp_rename.pl"
 
 
