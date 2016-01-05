@@ -14,19 +14,19 @@ source CONFIG
 
 cd $DD
 
-mkdir snptest
-mkdir process
+#mkdir snptest
+#mkdir process
 
-rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* snptest/
+#rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* out/
 
-rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
+#rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
 
 
-cd ${DD}snptest/
+cd ${DD}out/
 mkdir ../plink
-cp ../*.sample ../snptest/
+# cp ../*.sample ../snptest/
 
-ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
+#ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
 for CHR in `seq 1 22`;
 do
@@ -37,6 +37,9 @@ $gtool -G --g ${DATA}_chr${CHR}.imputed.gen --s ../${DATA}_chr${CHR}.flipped.pha
 $rename ../plink/${DATA}_chr${CHR}.imputed.map ${CHR} > ../plink/${DATA}_chr${CHR}.imputed.map
 done
 
+cd ../plink/
+
+gzip *
 
 
 	
