@@ -22,11 +22,11 @@ cd $DD
 #rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
 
 
-cd ${DD}info/
+cd ${DD}out/
 mkdir ../plink
 # cp ../*.sample ../snptest/
 
-#ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
+ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
 for CHR in `seq 1 22`;
 do
