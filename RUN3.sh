@@ -41,5 +41,11 @@ cd ../plink/
 
 gzip *
 
+cd ../out
+
+cp ../*.sample ./
+rm -f ${DATA}_chr*.flipped.phased.imputed.*.*
+gzip *
+
 
 	
