@@ -24,8 +24,8 @@ cd $DD
 
 cd ${DD}out/
 
-# rm -rf ../plink
-# mkdir ../plink
+rm -rf ../plink
+mkdir ../plink
 # cp ../*.sample ../snptest/
 
 # fix the problem
@@ -54,8 +54,8 @@ gzip *
 
 cd ../out
 
-cp ../*.sample ./
-rm -f ${DATA}_chr*.flipped.phased.imputed.*.*
+# cp ../*.sample ./
+# rm -f ${DATA}_chr*.flipped.phased.imputed.*.*
 gzip *
 
 
