@@ -22,14 +22,14 @@ cd $DD
 #rsync -av --progress ${DATA}_chr*.flipped.phased.imputed.* process/
 
 
-cd ${DD}out/
+cd ${DD}info/
 
 rm -rf ../plink
 mkdir ../plink
 # cp ../*.sample ../snptest/
 
 # fix the problem
-gunzip *
+# gunzip *
 
 # ls | grep 'info\|summary\|warnings\|diplotype' | xargs -d"\n" rm 
 
@@ -52,7 +52,7 @@ cd ../plink/
 
 gzip *
 
-cd ../out
+cd ../info
 
 # cp ../*.sample ./
 # rm -f ${DATA}_chr*.flipped.phased.imputed.*.*
