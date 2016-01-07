@@ -12,11 +12,11 @@
 # Remember to be consistant with directories. Always leave end blank
 
 export R="/home/hpc2862/repos/impute/"
-export DD="/scratch/hpc2862/CAMH/jen/PNAT2_AA/"
+export DD="/scratch/hpc2862/CAMH/jen/KIS3_AA/"
 export RD="/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/"
 export range="assets/chromosome_boundaries.txt"
 export plink="/home/hpc2862/Programs/binary_executables/plink"
-export DATA="PNAT2_AA_QC_complete_150729"
+export DATA="KIS3_AA_QC_complete_150731"
 export shapeit="/home/hpc2862/repos/impute/bin/shapeit"
 export gtool="/home/hpc2862/repos/impute/bin/gtool"
 export rename="/home/hpc2862/repos/impute/app/snp_rename.pl"
