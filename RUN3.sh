@@ -35,7 +35,9 @@ mkdir ../plink
 
 for CHR in `seq 1 22`;
 do
+## Already done
 # cat ${DATA}_chr${CHR}.flipped.phased.imputed.* > ${DATA}_chr${CHR}.imputed.gen
+
 $gtool -G --g ${DATA}_chr${CHR}.imputed.gen --s ../${DATA}_chr${CHR}.flipped.phased.sample --ped ../plink/${DATA}_chr${CHR}.imputed.ped --map ../plink/${DATA}_chr${CHR}.imputed.map --chr ${CHR} --sex sex --threshold 0.9
 
 #remove safeties on pipe
