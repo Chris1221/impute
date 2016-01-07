@@ -7,8 +7,39 @@ For detailed information, please see the [wiki](https://github.com/Chris1221/imp
 
 Last remaining things
 
-- [ ] NEAM is running to finish
+- [x] NEAM is running to finish
 - [x] KIS3 is done
-- [ ] PNAT_EUR is running to finish
-- [ ] PNAT_AA is running to finish 
+- [x] PNAT_EUR is running to finish
+- [x] PNAT_AA is running to finish 
 - [ ] Finish and package
+	- [ ] Below structure
+
+
+```{sh}
+./plink/
+	PNAT2_EUR/
+		*.map.gz
+		*.ped.gz
+	KIS3_AA/
+		...
+	NEAM/
+		...
+	PNAT_AA/
+		...
+./snptest/
+	PNAT2_EUR/
+		*.gen.gz
+		*.sample.gz
+	KIS3_AA/
+		...
+	NEAM/
+		...
+	PNAT_AA/
+		...
+./docs/
+	Imputation_Procedure.Md
+	Computational_Resources.Md
+	Affiliations.Md
+README.Md
+
+```
