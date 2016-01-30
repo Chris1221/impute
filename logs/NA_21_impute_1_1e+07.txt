@@ -1,0 +1,116 @@
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `BASH_FUNC_module'
+
+======================
+ IMPUTE version 2.3.2 
+======================
+
+Copyright 2008 Bryan Howie, Peter Donnelly, and Jonathan Marchini
+Please see the LICENCE file included with this program for conditions of use.
+
+The seed for the random number generator is 380932137.
+
+Command-line input: bin/impute2 -known_haps_g /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.haps -h /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr21.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz -l /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr21.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz -m /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/genetic_map_chr12_combined_b37.txt -int 1 1e+07 -Ne 15000 -buffer 250 -o /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.imputed.1.1e+07 -allow_large_regions
+
+---------------------------------
+ Nomenclature and data structure 
+---------------------------------
+
+     Panel 0: phased reference haplotypes
+     Panel 2: phased study haplotypes
+
+For optimal results, each successive panel (0,1,2) should contain a subset of the SNPs in the previous panel. When the data structure deviates from this ideal configuration, IMPUTE2 tries to use as much of the available information as possible; see documentation for details.
+
+-------------
+ Input files 
+-------------
+
+         Panel 0 haplotypes: /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr21.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz
+         Panel 0 hap legend: /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr21.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz
+         Panel 2 known haps: /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.haps
+                genetic map: /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/genetic_map_chr12_combined_b37.txt
+
+--------------
+ Output files 
+--------------
+
+                main output: /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.imputed.1.1e+07
+                SNP QC info: /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.imputed.1.1e+07_info
+             sample QC info: /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.imputed.1.1e+07_info_by_sample
+                run summary: /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.imputed.1.1e+07_summary
+                warning log: /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.imputed.1.1e+07_warnings
+ Panel 2 diplotype ordering: /scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.imputed.1.1e+07_diplotype_ordering
+
+-----------------
+ Data processing 
+-----------------
+
+-reading genetic map from -m file
+ --filename=[/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/genetic_map_chr12_combined_b37.txt]
+ --read 12162 SNPs in the analysis interval+buffer region
+
+-reading Panel 2 haplotypes from -known_haps_g file
+ --filename=[/scratch/hpc2862/CAMH/jen/PNAT2_AA/PNAT2_AA_QC_complete_150729_chr21.flipped.phased.haps]
+ --detected 506 individuals
+ --read 0 SNPs in the analysis interval+buffer region
+
+-reading Panel 0 haplotypes from -h and -l files
+ --filename=[/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr21.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz]
+ --filename=[/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr21.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz]
+ --detected 2184 haplotypes
+ --read 892 SNPs in the analysis interval+buffer region
+
+-removing SNPs that violate the hierarchical data requirements
+ --no SNPs removed
+
+-removing reference-only SNPs from buffer region
+ --removed 57 SNPs
+
+-checking strand alignment between Panel 2 and Panel 0 by allele labels
+ --flipped strand due to allele mismatch at 0 out of 0 SNPs in Panel 2
+
+-aligning allele labels between panels
+
+-removing non-aligned genotyped SNPs
+ --removed 0 out of 0 SNPs with data in multiple panels
+
+--------------
+ Data summary 
+--------------
+
+[type 0 = SNP in Panel 0 only]
+[type 1 = SNP in Panel 1]
+[type 2 = SNP in Panel 2 and all ref panels]
+[type 3 = SNP in Panel 2 only]
+
+-Upstream buffer region
+ --0 type 0 SNPs
+ --0 type 1 SNPs
+ --0 type 2 SNPs
+ --0 type 3 SNPs
+ --0 total SNPs
+
+-Downstream buffer region
+ --0 type 0 SNPs
+ --0 type 1 SNPs
+ --0 type 2 SNPs
+ --0 type 3 SNPs
+ --0 total SNPs
+
+-Analysis region (as defined by -int argument)
+ --835 type 0 SNPs
+ --0 type 1 SNPs
+ --0 type 2 SNPs
+ --0 type 3 SNPs
+ --835 total SNPs
+
+-Output file
+ --835 type 0 SNPs
+ --0 type 1 SNPs
+ --0 type 2 SNPs
+ --0 type 3 SNPs
+
+-In total, 835 SNPs will be used in the analysis, including 0 Panel 2 SNPs
+
+ERROR: There are no type 2 SNPs after applying the command-line settings for this run, which makes it impossible to perform imputation. One possible reason is that you have specified an analysis interval (-int) that contains reference panel SNPs but not inference panel SNPs -- e.g., this can happen at the ends of chromosomes. Another possibility is that your genotypes and the reference panel are mapped to different genome builds, which can lead the same SNPs to be assigned different positions in different panels. If you need help fixing this error, please contact the authors.
+

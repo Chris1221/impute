@@ -1,0 +1,4 @@
+Mode    : Summarizer
+Options : -B PNAT2_AA_QC_complete_150729_chr1 -M /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/genetic_map_chr1_combined_b37.txt --input-ref /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr1.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.chr1.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz /scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/ALL.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.sample --output-log PNAT2_AA_QC_complete_150729_alignment_chr1
+
+ERROR: PNAT2_AA_QC_complete_150729_chr1.bed is impossible to open, check file existence or reading permissions
