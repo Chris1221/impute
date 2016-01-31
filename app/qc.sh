@@ -7,10 +7,17 @@
 #$ -j y
 #$ -o /home/hpc2862/logs/$JOB_NAME.txt
 
+#    ____             _ _ _             ___            _             _ 
+#   /___ \_   _  __ _| (_) |_ _   _    / __\___  _ __ | |_ _ __ ___ | |
+#  //  / / | | |/ _` | | | __| | | |  / /  / _ \| '_ \| __| '__/ _ \| |
+# / \_/ /| |_| | (_| | | | |_| |_| | / /__| (_) | | | | |_| | | (_) | |
+# \___,_\ \__,_|\__,_|_|_|\__|\__, | \____/\___/|_| |_|\__|_|  \___/|_|
+#  
+
 chr=$1
 R=$2
 cd $R
 source CONFIG
 
 cd $OD
-$qctool -g ${DATA}_chr${i}.imputed.gen.gz -s ${DATA}_chr${i}.flipped.phased.sample.gz -maf 0.01 1 -info 0.4 1 -og ${QC}${DATA}_chr${i}.imputed.QC.gen.gz -os ${DATA}_chr${i}.imputed.QC.sample.gz
+$qctool -g ${DATA}_chr${chr}.imputed.gen.gz -s ${DATA}_chr${i}.flipped.phased.sample.gz -maf 0.01 1 -info 0.4 1 -og ${QC}${DATA}_chr${i}.imputed.QC.gen -os ${QC}${DATA}_chr${i}.imputed.QC.sample

@@ -8,3 +8,8 @@
 #                             |___/                                    
 
 source CONFIG
+
+for i in $(seq 1 22)
+do
+	qsub -N ${pre}_chr${i}_qc app/qc.sh $i $R
+done

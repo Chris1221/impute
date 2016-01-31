@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#  _____              __ _        
+# /  __ \            / _(_)       
+# | /  \/ ___  _ __ | |_ _  __ _  
+# | |    / _ \| '_ \|  _| |/ _` | 
+# | \__/\ (_) | | | | | | | (_| | 
+#  \____/\___/|_| |_|_| |_|\__, | 
+#                           __/ | 
+#                          |___/  
+
 ######                                            ######
 #                                                      #
 #      Define all relevant parameters here             #
@@ -16,8 +25,10 @@ export DATA="NEAM_QC_complete_150623"
 export pre="NEAM"
 
 #these should change by themselves
-export OD="/scratch/hpc2862/CAMH/jen/KIS3_NEAM_PNAT_Imputation/snptest/${pre}/"
+export OD="/scratch/hpc2862/CAMH/jen/Output/raw/snptest/${pre}/"
 export DD="/scratch/hpc2862/CAMH/jen/${pre}/"
+export QC="/scratch/hpc2862/CAMH/jen/Output/qc/snptest/${pre}/"
+
 
 #these shouldnt change very often
 export R="/home/hpc2862/repos/impute/"
