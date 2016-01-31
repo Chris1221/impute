@@ -20,4 +20,4 @@ cd $R
 source CONFIG
 
 cd $OD
-$qctool -g ${DATA}_chr${chr}.imputed.gen.gz -s ${DATA}_chr${i}.flipped.phased.sample.gz -maf 0.01 1 -info 0.4 1 -og ${QC}${DATA}_chr${i}.imputed.QC.gen -os ${QC}${DATA}_chr${i}.imputed.QC.sample
+$qctool -g ${DATA}_chr${chr}.imputed.gen.gz -s ${DATA}_chr${chr}.flipped.phased.sample.gz -maf 0.01 1 -info 0.4 1 -og ${QC}${DATA}_chr${chr}.imputed.QC.gen -os ${QC}${DATA}_chr${chr}.imputed.QC.sample
