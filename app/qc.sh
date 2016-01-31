@@ -5,7 +5,7 @@
 #$ -cwd
 #$ -V
 #$ -j y
-#$ -o /home/hpc2862/logs/$JOB_NAME.txt
+#$ -o /home/hpc2862/repos/impute/logs/$JOB_NAME.txt
 
 #    ____             _ _ _             ___            _             _ 
 #   /___ \_   _  __ _| (_) |_ _   _    / __\___  _ __ | |_ _ __ ___ | |
