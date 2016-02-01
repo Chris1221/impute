@@ -19,5 +19,6 @@ R=$2
 cd $R
 source CONFIG
 
-cd $OD
-$qctool -g ${DATA}_chr${chr}.imputed.gen.gz -maf 0.01 1 -info 0.4 1 -og ${QC}${DATA}_chr${chr}.imputed.QC.gen
+cd $QC
+#$qctool -g ${DATA}_chr${chr}.imputed.gen.gz -maf 0.01 1 -info 0.4 1 -og ${QC}${DATA}_chr${chr}.imputed.QC.gen
+$gtool -G --g ${QC}${DATA}_chr${chr}.imputed.QC.gen.gz --s ${QC}${DATA}_chr${chr}.flipped.phased.sample.gz --ped ../../plink/${pre}/${DATA}_chr${chr}.flipped.phased.ped --map ../../plink/${pre}/${DATA}_chr${chr}.flipped.phased.map --threshold 0.9
