@@ -21,8 +21,8 @@
 # Remember to be consistant with directories. Always leave end blank
 
 #change these
-export DATA="KIS3_AA_QC_complete_150731"
-export pre="KIS3_AA"
+export DATA="PNAT2_AA_QC_complete_150729"
+export pre="PNAT2_AA"
 
 #these should change by themselves
 export OD="/scratch/hpc2862/CAMH/jen/Output/raw/snptest/${pre}/"
