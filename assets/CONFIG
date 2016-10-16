@@ -1,0 +1,42 @@
+#!/bin/bash
+
+#  _____              __ _        
+# /  __ \            / _(_)       
+# | /  \/ ___  _ __ | |_ _  __ _  
+# | |    / _ \| '_ \|  _| |/ _` | 
+# | \__/\ (_) | | | | | | | (_| | 
+#  \____/\___/|_| |_|_| |_|\__, | 
+#                           __/ | 
+#                          |___/  
+
+######                                            ######
+#                                                      #
+#      Define all relevant parameters here             #
+#    This is read by the rest of the scripts           #
+#  so instead of editing the variables individually    #
+#                 put them here                        #
+#                                                      #
+######                                            ######
+
+# Remember to be consistant with directories. Always leave end blank
+
+#change these
+export DATA="NEAM_QC_complete_150623"
+export pre="NEAM"
+
+#these should change by themselves
+export OD="/scratch/hpc2862/CAMH/jen/Output/raw/snptest/${pre}/"
+export DD="/scratch/hpc2862/CAMH/jen/${pre}/"
+export QC="/scratch/hpc2862/CAMH/jen/Output/qc/snptest/${pre}/"
+
+
+#these shouldnt change very often
+export R="/home/hpc2862/repos/impute/"
+export RD="/scratch/hpc2862/CAMH/jen/ALL.integrated_phase1_SHAPEIT_16-06-14.nomono/"
+export range="assets/chromosome_boundaries.txt"
+export plink="/home/hpc2862/Programs/binary_executables/plink"
+export shapeit="/home/hpc2862/repos/impute/bin/shapeit"
+export gtool="/home/hpc2862/repos/impute/bin/gtool"
+export rename="/home/hpc2862/repos/impute/app/snp_rename.pl"
+export qctool="/home/hpc2862/repos/impute/bin/qctool"
+

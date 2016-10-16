@@ -1,0 +1,64 @@
+#!/bin/bash
+
+################# !!! #####################
+#                                         #
+#         THESE ARE LOCALLY RUN           #
+#         bash run; cnt+z; disown         #
+#                                         #
+################  !!! #####################
+
+#source the config parms
+
+source CONFIG 
+
+# first split the chromosomes up, note that this script is modified to 
+# omit the exlude snps, because we only generate those after
+# the align check step.
+
+cd $DD
+#remove dups, maybe make this first?
+Rscript ${R}app/remove_dup.R $DD $DATA
+
+
+for CHR in $(seq 1 22)
+do
+
+	#local split by 
+	$plink --noweb --bfile $DATA --chr $CHR --exclude exclude_snp_list.txt --make-bed --out ${DATA}_chr${CHR}
+
+	#align check 1
+	${shapeit} -check -B ${DATA}_chr${CHR} -M ${RD}genetic_map_chr${CHR}_combined_b37.txt --input-ref ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz ${RD}ALL.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.sample --output-log ${DATA}_alignment_chr${CHR}
+
+	#cleanup
+	#rm -f neam_alignment_chr*.log
+	#rm -f KIS3_AA_QC_complete_150731_chr*.*
+
+	# grab bad snps
+
+
+	cat ${DATA}_alignment_chr${CHR}.snp.strand | grep "Strand" | awk '{ print $3 }' > flip.chr${CHR}.txt
+
+	cat ${DATA}_alignment_chr${CHR}.snp.strand | grep "Missing" | awk '{ print $3 }' > exclude.chr${CHR}.txt
+
+	#flip these in the data
+
+	$plink --noweb --bfile ${DATA}_chr${CHR} --flip flip.chr${CHR}.txt --make-bed --out ${DATA}_chr${CHR}.flipped
+
+	#check again and pipe all problems to an exclude
+
+	${shapeit} -check -B ${DATA}_chr${CHR}.flipped -M ${RD}genetic_map_chr${CHR}_combined_b37.txt --input-ref ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.haplotypes.gz ${RD}ALL.chr${CHR}.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.nomono.legend.gz ${RD}ALL.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.sample --output-log ${DATA}_alignment_chr${CHR}.flipped
+	
+	cat ${DATA}_alignment_chr${CHR}.flipped.snp.strand | grep "Strand" | awk '{ print $3 }' >> exclude.chr${CHR}.txt
+	cat ${DATA}_alignment_chr${CHR}.flipped.snp.strand | grep "Missing" | awk '{ print $3 }' >> exclude.chr${CHR}.txt
+
+	#prephasing
+
+	qsub -N ${DATA}_chr${CHR}_prephase -V ${R}app/new_prephase.sh $CHR
+
+done
+
+cd /home/hpc2862/repos/impute
+
+Rscript app/m_impute.R $range $DATA
+
+
