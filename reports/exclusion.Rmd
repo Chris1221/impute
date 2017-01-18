@@ -11,7 +11,7 @@ files_list <- vector()
 both_list <- vector()
 
 
-for(file in list.files("/scratch/hpc2862/CAMH/jen/Output/snp-stats/KIS3_AA"){
+for(file in list.files("/scratch/hpc2862/CAMH/jen/Output/snp-stats/KIS3_AA")){
 
 	r <- data.table::fread(file, h = T, data.table = F)
 	maf <- sum(r$MAF < 0.01)

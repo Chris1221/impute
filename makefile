@@ -1,4 +1,4 @@
 .PHONY: all
 
-reports/exlusion.html: reports/exclusion.Rmd
+reports/exclusion.html: reports/exclusion.Rmd
 	
