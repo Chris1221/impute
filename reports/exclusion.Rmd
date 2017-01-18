@@ -25,5 +25,5 @@ for(file in list.files("/scratch/hpc2862/CAMH/jen/Output/snp-stats/KIS3_AA")){
 }
 
 df <- data.frame(Files = files_list, LowMAF = maf_list, LowINFO = info_list, Both = both_list)
-kable(df)
+knitr::kable(df)
 ```
