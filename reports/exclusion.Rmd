@@ -27,3 +27,30 @@ for(file in list.files("/scratch/hpc2862/CAMH/jen/Output/snp-stats/KIS3_AA")){
 df <- data.frame(Files = files_list, LowMAF = maf_list, LowINFO = info_list, Both = both_list)
 knitr::kable(df)
 ```
+
+
+
+```{R}
+
+maf_list <- vector()
+info_list <- vector()
+files_list <- vector()
+both_list <- vector()
+
+
+for(file in list.files("/scratch/hpc2862/CAMH/jen/Output/snp-stats/PNAT2_AA")){
+
+	r <- data.table::fread(paste0("/scratch/hpc2862/CAMH/jen/Output/snp-stats/PNAT2_AA/", file), h = T, data.table = F)
+	maf <- sum(r$MAF < 0.01)
+	info <- sum(r$information < 0.4)
+	both <- sum(r$MAF < 0.01 & r$information < 0.4)
+
+	maf_list <- c(maf_list, maf)
+	info_list <- c(info_list, info)
+	files_list <- c(files_list, file)
+	both_list <- c(both_list, both)
+}
+
+df <- data.frame(Files = files_list, LowMAF = maf_list, LowINFO = info_list, Both = both_list)
+knitr::kable(df)
+```
