@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#  _____              __ _        
+# /  __ \            / _(_)       
+# | /  \/ ___  _ __ | |_ _  __ _  
+# | |    / _ \| '_ \|  _| |/ _` | 
+# | \__/\ (_) | | | | | | | (_| | 
+#  \____/\___/|_| |_|_| |_|\__, | 
+#                           __/ | 
+#                          |___/  
+
+######                                            ######
+#                                                      #
+#      Define all relevant parameters here             #
+#    This is read by the rest of the scripts           #
+#  so instead of editing the variables individually    #
+#                 put them here                        #
+#                                                      #
+######                                            ######
+
+# Remember to be consistant with directories. Always leave end blank
+# This set up will depend entirely on the configuration of your data files. 
+
+#change these
+export DATA="file-name"
+export pre="cohort-prefix"
+
+# These directories are important for figureing out where all the
+#	files have to go.
+#
+#	OD 	Output directory.
+#	DD 	Data Directory.
+#	QC	QC directory.
+export OD="path/to/output/directory/"
+export DD="path/to/data/directory/"
+export QC="path/to/qc/directory/"
+
+
+#these shouldnt change very often
+export R="/path/to/root/directory/"
+export RD="/path/to/root/of/data/directory/"
+export range="assets/chromosome_boundaries.txt"
+export plink="/path/to/plink1.7"
+export shapeit="/path/to/shapeit"
+export gtool="/path/to/gtool"
+export rename="app/snp_rename.pl"
+export qctool="/path/to/qctool"
+

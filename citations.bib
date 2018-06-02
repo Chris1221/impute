@@ -1,0 +1,85 @@
+@manual{RCoreTeam2015,
+address = {Vienna, Austria},
+author = {{R Core Team}},
+organization = {R Foundation for Statistical Computing},
+title = {{R: A Language and Environment for Statistical Computing}},
+url = {https://www.r-project.org/},
+year = {2015}
+}
+@article{Delaneau2016,
+annote = {doi: 10.1016/j.ajhg.2013.09.002},
+author = {Delaneau, Olivier and Howie, Bryan and Cox, Anthony J. and Zagury, Jean-Fran\c{c}ois and Marchini, Jonathan},
+doi = {10.1016/j.ajhg.2013.09.002},
+issn = {0002-9297},
+journal = {The American Journal of Human Genetics},
+month = jan,
+number = {4},
+pages = {687--696},
+publisher = {Elsevier},
+title = {{Haplotype Estimation Using Sequencing Reads}},
+url = {http://dx.doi.org/10.1016/j.ajhg.2013.09.002},
+volume = {93},
+year = {2016}
+}
+@article{10.1371/journal.pgen.1004234,
+abstract = {<title>Author Summary</title> <p>Every individual carries two copies of each chromosome (haplotypes), one from each of their parents, that consist of a long sequence of alleles. Modern genotyping technologies do not measure haplotypes directly, but the combined sum (or genotype) of alleles at each site. Statistical methods are needed to infer (or phase) the haplotypes from the observed genotypes. Haplotype estimation is a key first step of many disease and population genetic studies. Much recent work in this area has focused on phasing in cohorts of nominally unrelated individuals. So called ‘long range phasing’ is a relatively recent concept for phasing individuals with intermediate levels of relatedness, such as cohorts taken from population isolates. Methods also exist for phasing genotypes for individuals within explicit pedigrees. Whilst high quality phasing techniques are available for each of these demographic scenarios, to date, no single method is applicable to all three. In this paper, we present a general approach for phasing cohorts that contain any level of relatedness between the study individuals. We demonstrate high levels of accuracy in all demographic scenarios, as well as the ability to detect (Mendelian consistent) genotyping error and recombination events in duos and trios, the first method with such a capability.</p>},
+author = {O'Connell, Jared and Gurdasani, Deepti and Delaneau, Olivier and Pirastu, Nicola and Ulivi, Sheila and Cocca, Massimiliano and Traglia, Michela and Huang, Jie and Huffman, Jennifer E and Rudan, Igor and McQuillan, Ruth and Fraser, Ross M and Campbell, Harry and Polasek, Ozren and Asiki, Gershim and Ekoru, Kenneth and Hayward, Caroline and Wright, Alan F and Vitart, Veronique and Navarro, Pau and Zagury, Jean-Francois and Wilson, James F and Toniolo, Daniela and Gasparini, Paolo and Soranzo, Nicole and Sandhu, Manjinder S and Marchini, Jonathan},
+doi = {10.1371/journal.pgen.1004234},
+journal = {PLoS Genet},
+number = {4},
+pages = {e1004234},
+publisher = {Public Library of Science},
+title = {{A General Approach for Haplotype Phasing across the Full Spectrum of Relatedness}},
+url = {http://dx.doi.org/10.1371\%2Fjournal.pgen.1004234},
+volume = {10},
+year = {2014}
+}
+@article{10.1371/journal.pgen.1000529,
+abstract = {<title>Author Summary</title>
+<p>Large association studies have proven to be effective tools for identifying parts of the genome that influence disease risk and other heritable traits. So-called “genotype imputation” methods form a cornerstone of modern association studies: by extrapolating genetic correlations from a densely characterized reference panel to a sparsely typed study sample, such methods can estimate unobserved genotypes with high accuracy, thereby increasing the chances of finding true associations. To date, most genome-wide imputation analyses have used reference data from the International HapMap Project. While this strategy has been successful, association studies in the near future will also have access to additional reference information, such as control sets genotyped on multiple SNP chips and dense genome-wide haplotypes from the 1,000 Genomes Project. These new reference panels should improve the quality and scope of imputation, but they also present new methodological challenges. We describe a genotype imputation method, IMPUTE version 2, that is designed to address these challenges in next-generation association studies. We show that our method can use a reference panel containing thousands of chromosomes to attain higher accuracy than is possible with the HapMap alone, and that our approach is more accurate than competing methods on both current and next-generation datasets. We also highlight the modeling issues that arise in imputation datasets.</p>
+},
+author = {Howie, Bryan N and Donnelly, Peter and Marchini, Jonathan},
+doi = {10.1371/journal.pgen.1000529},
+journal = {PLoS Genet},
+number = {6},
+pages = {e1000529},
+publisher = {Public Library of Science},
+title = {{A Flexible and Accurate Genotype Imputation Method for the Next Generation of Genome-Wide Association Studies}},
+url = {http://dx.doi.org/10.1371\%2Fjournal.pgen.1000529},
+volume = {5},
+year = {2009}
+}
+@article{Howie01112011,
+abstract = {Genotype imputation is a statistical technique that is often used to increase the power and resolution of genetic association studies. Imputation methods work by using haplotype patterns in a reference panel to predict unobserved genotypes in a study dataset, and a number of approaches have been proposed for choosing subsets of reference haplotypes that will maximize accuracy in a given study population. These panel selection strategies become harder to apply and interpret as sequencing efforts like the 1000 Genomes Project produce larger and more diverse reference sets, which led us to develop an alternative framework. Our approach is built around a new approximation that uses local sequence similarity to choose a custom reference panel for each study haplotype in each region of the genome. This approximation makes it computationally efficient to use all available reference haplotypes, which allows us to bypass the panel selection step and to improve accuracy at low-frequency variants by capturing unexpected allele sharing among populations. Using data from HapMap 3, we show that our framework produces accurate results in a wide range of human populations. We also use data from the Malaria Genetic Epidemiology Network (MalariaGEN) to provide recommendations for imputation-based studies in Africa. We demonstrate that our approximation improves efficiency in large, sequence-based reference panels, and we discuss general computational strategies for modern reference datasets. Genome-wide association studies will soon be able to harness the power of thousands of reference genomes, and our work provides a practical way for investigators to use this rich information. New methodology from this study is implemented in the IMPUTE2 software package.},
+author = {Howie, Bryan and Marchini, Jonathan and Stephens, Matthew},
+doi = {10.1534/g3.111.001198},
+journal = {G3: Genes, Genomes, Genetics},
+number = {6},
+pages = {457--470},
+title = {{Genotype Imputation with Thousands of Genomes}},
+url = {http://www.g3journal.org/content/1/6/457.abstract},
+volume = {1},
+year = {2011}
+}
+@article{Purcell2015,
+abstract = {Whole-genome association studies (WGAS) bring new computational, as well as analytic, challenges to researchers. Many existing genetic-analysis tools are not designed to handle such large data sets in a convenient manner and do not necessarily exploit the new opportunities that whole-genome data bring. To address these issues, we developed PLINK, an open-source C/C++ WGAS tool set. With PLINK, large data sets comprising hundreds of thousands of markers genotyped for thousands of individuals can be rapidly manipulated and analyzed in their entirety. As well as providing tools to make the basic analytic steps computationally efficient, PLINK also supports some novel approaches to whole-genome data that take advantage of whole-genome coverage. We introduce PLINK and describe the five main domains of function: data management, summary statistics, population stratification, association analysis, and identity-by-descent estimation. In particular, we focus on the estimation and use of identity-by-state and identity-by-descent information in the context of population-based whole-genome studies. This information can be used to detect and correct for population stratification and to identify extended chromosomal segments that are shared identical by descent between very distantly related individuals. Analysis of the patterns of segmental sharing has the potential to map disease loci that contain multiple rare variants in a population-based linkage analysis.},
+annote = {doi: 10.1086/519795},
+author = {Purcell, Shaun and Neale, Benjamin and Todd-Brown, Kathe and Thomas, Lori and Ferreira, Manuel A R and Bender, David and Maller, Julian and Sklar, Pamela and de Bakker, Paul I W and Daly, Mark J and Sham, Pak C},
+doi = {10.1086/519795},
+journal = {The American Journal of Human Genetics},
+month = sep,
+number = {3},
+pages = {559--575},
+publisher = {Elsevier},
+title = {{PLINK: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses}},
+url = {http://dx.doi.org/10.1086/519795},
+volume = {81},
+year = {2015}
+}
+@misc{Wickham2015,
+annote = {R package version 0.4.1},
+author = {Wickham, Hadley and Francois, Romain},
+title = {{dplyr: A Grammar of Data Manipulation}},
+url = {http://cran.r-project.org/package=dplyr},
+year = {2015}
+}
