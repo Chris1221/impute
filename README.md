@@ -1,4 +1,6 @@
 # General Imptuation Pipeline
+
+> **NOTE**: The approach taken here was essentially best-practice at the time of writing (circa 2015/2016), and combined advice from the cited articles. Since then, there has been quite a bit of progress in the field of imputation, and I would recommend **not using this pipeline in 2019** since many aspects have either been made obsolete or improved upon by new methods. I've decided to leave this repository live but archived, and have no plans to update or maintain this code. I make absolutely no guarentees of current functionality or compararitive accuracy. 
  
 The following document details the imputation procedure of four data sets. We will use the ex as an example data set for all of the following examples. Note that this details the logical flow and I've wrapped all of these scripts into several wrappers. If you would like to know an easier way, please contact me. 
 
